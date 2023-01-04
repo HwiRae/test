@@ -1,5 +1,6 @@
 package jpabook.jpashop.service;
 
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +22,7 @@ public class MemberServiceTest {
     @Test
     public void 회원가입() throws Exception {
         //given
-        Member member
+        Member member;
 
         //when
 
